@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist voskobovich/yii2-adminlte "*"
+composer require --prefer-dist voskobovich/yii2-adminlte-assets "*"
 ```
 
 or add
 
 ```
-"voskobovich/yii2-adminlte": "*"
+"voskobovich/yii2-adminlte-assets": "*"
 ```
 
 to the require section of your `composer.json` file.

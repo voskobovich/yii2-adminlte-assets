@@ -1,16 +1,17 @@
 {
-  "name": "voskobovich/yii2-adminlte",
-  "description": "AdminLTE package for Yii2",
+  "name": "voskobovich/yii2-adminlte-assets",
+  "description": "AdminLTE Assets package for Yii2",
   "keywords": [
     "yii2",
-    "theme"
+    "adminlte",
+    "assets"
   ],
-  "homepage": "https://github.com/voskobovich/yii2-adminlte",
+  "homepage": "https://github.com/voskobovich/yii2-adminlte-assets",
   "type": "yii2-theme",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/voskobovich/yii2-adminlte/issues",
-    "source": "https://github.com/voskobovich/yii2-adminlte"
+    "issues": "https://github.com/voskobovich/yii2-adminlte-assets/issues",
+    "source": "https://github.com/voskobovich/yii2-adminlte-assets"
   },
   "authors": [
     {
