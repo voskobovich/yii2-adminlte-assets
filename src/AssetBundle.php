@@ -16,15 +16,15 @@ abstract class AssetBundle extends \yii\web\AssetBundle
     {
         parent::init();
 
-        foreach ($this->css as $n => $item) {
-            $this->css[$n] = static::prepareItem($item, 'css');
+        foreach ($this->css as &$item) {
+            $item = static::prepareItem($item, 'css');
         }
-        unset($n, $item);
+        unset($item);
 
-        foreach ($this->js as $n => $item) {
-            $this->js[$n] = static::prepareItem($item, 'js');
+        foreach ($this->js as &$item) {
+            $item = static::prepareItem($item, 'js');
         }
-        unset($n, $item);
+        unset($item);
     }
 
     /**
