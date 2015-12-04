@@ -34,7 +34,7 @@ abstract class AssetBundle extends \yii\web\AssetBundle
      */
     protected static function prepareItem($item, $extension)
     {
-        $version = YII_DEBUG ?: 'min.';
+        $version = YII_DEBUG ? '' : 'min.';
         $extension = $version . $extension;
 
         return str_replace('{extension}', $extension, $item);
